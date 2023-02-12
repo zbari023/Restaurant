@@ -1,0 +1,19 @@
+body{
+   background: #fdf2e9;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+}
+.backpage{
+    background: #fdf2e9;
+}
+.backpage2{
+    background: #e6e3e1;
+}
+.imgback{
+    background: rgb(238, 178, 178);
+    border-radius: 30%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
