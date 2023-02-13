@@ -1,6 +1,6 @@
 body{
    background: #fdf2e9;
-    font-family: 'Roboto Condensed', sans-serif;
+   font-family: 'Roboto Condensed', sans-serif;
     font-size: 18px;
 }
 .backpage{
@@ -16,4 +16,24 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.nav-item a::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: rgb(245, 228, 0);
+    transition: 0.4s
+}
+
+.nav-item a:hover::after {
+    width: 100%;
+}
+.hovering_card {
+    transition: all ease 0.5s;
+}
+
+.hovering_card:hover {
+  
+    top: -15px;
 }
